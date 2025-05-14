@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Grotto Bakery - Gluten-Free Fresh Bakes in Bahrain" />
+  <meta name="keywords" content="gluten-free, bakery, Bahrain, bread, pastries, healthy" />
+  <meta name="author" content="Zainab Saleh" />
+  <meta name="robots" content="index, follow" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Grotto Bakery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/logo.PNG" type="image/x-icon" />
+</head>
+<body>
+
+<header>
+  <nav class="shrinkable">
+    <ul class="nav-left">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  
+    <div class="nav-logo">
+      <a href="#hero">
+        <img src="images/logo.PNG" alt="Grotto Logo" />
+      </a>
+    </div>
+  
+    <ul class="nav-right">
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Toggle Theme Button -->
+<button id="themeToggle" aria-label="Toggle theme">
+  <span id="themeIcon">☀️</span>
+</button> 
+
+<!-- Hero Section -->
+<section id="hero" class="reveal">
+  <video autoplay muted loop id="heroVideo">
+    <source src="video/grotta bakery video.MP4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="hero-text">
+    <h1>Grotto Bakery</h1>
+    <p>Gluten-Free. Fresh. Made with Love.</p>
+    <a href="#products" class="scroll-button">Explore Our Bakery</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="reveal">
+  <div class="about-text">
+    <h2 style="color: #0D3F20;">About Us</h2>
+    <h3 style="font-family: 'Times New Roman', serif;">Our Story</h3>
+    <p>
+      Grotto Bakery was created to serve a growing community of people who value wellness without sacrificing the joy of eating. 
+      What started as a personal journey for healthier eating became a community movement for gluten-free living in Bahrain.
+    </p>
+    <p>
+      From humble beginnings, Grotto has grown into a dedicated gluten-free bakery committed to transparency, taste, and trust. 
+      Every loaf of bread, every sweet treat, and every custom recipe is carefully crafted with handpicked ingredients all free from gluten, preservatives, and fillers.
+    </p>
+    <p>
+      We believe that food brings people together. That’s why our kitchen is built around a promise: 
+      to make delicious gluten-free baked goods that everyone at the table can enjoy whether out of need, choice, or curiosity.
+    </p>
+    <p>
+      Our team is made up of passionate bakers, nutrition advocates, and food lovers who work every day to bring innovation and love into every product. 
+      We're not just a bakery we're a lifestyle choice for better, balanced living.
+    </p>
+  </div>
+</section>
+
+<!-- Celiac Awareness Section -->
+<section id="celiac" class="reveal" style="background-color: #fff8f5; padding: 4em 2em;">
+  <div class="celiac-container" style="display: flex; flex-wrap: wrap; gap: 2em; justify-content: center; align-items: flex-start; max-width: 1200px; margin: auto;">
+    <div style="flex: 1; min-width: 300px;">
+      <h2 style="font-family: 'Georgia', serif; font-size: 2em;">What is Celiac Disease?</h2>
+      <p>At the heart of the gluten-free community are those who suffer from Celiac disease, a serious genetic autoimmune disorder where the ingestion of gluten leads to damage in the small intestine. It is estimated to affect 1 in 100 people worldwide,We formulated a completely gluten-free products so that those with gluten sensitivities could enjoy our products without worry of cross-contamination.</p>
+    </div>
+    <div style="flex: 1; min-width: 300px; text-align: right; direction: rtl;">
+      <h2 style="font-family: 'Georgia', serif; font-size: 2em;">ما هو مرض السيلياك؟</h2>
+      <p>في قلب المجتمع الخالي من الجلوتين ، يوجد أولئك الذين يعانون من مرض السيلياك ، وهو اضطراب وراثي خطير في المناعة الذاتية حيث يؤدي تناول الجلوتين إلى تلف الأمعاء الدقيقة. تبلغ نسبة الاصابة بمرض السيلياك ١٪ في جميع أنحاء العالم ، منتجات مخابز جروتا خالية تمامًا من الجلوتين حتى يتمكن الأشخاص الذين يعانون من حساسية الجلوتين من الاستمتاع بمنتجاتنا دون قلق من التلوث المحتمل من منتجات تحمل اثار الجلوتين .</p>
+    </div>
+  </div>
+</section>
+
+<!-- Products Section -->
+<section id="products" class="reveal">
+  <h2>Our Products</h2>
+  <div class="product-grid">
+
+    <div class="product-item">
+      <a href="images/samuli.jpg" class="lightbox">
+        <img src="images/samuli.jpg" alt="Samuli Bread" />
+      </a>
+      <p class="product-name">Samuli Bread</p>
+    </div>
+
+    <div class="product-item">
+      <a href="images/burger buns.jpg" class="lightbox">
+        <img src="images/burger buns.jpg" alt="Burger Buns" />
+      </a>
+      <p class="product-name">Burger Buns</p>
+    </div>
+
+    <div class="product-item">
+      <a href="images/arabic bread.jpg" class="lightbox">
+        <img src="images/arabic bread.jpg" alt="Arabic Bread" />
+      </a>
+      <p class="product-name">Arabic Bread</p>
+    </div>
+
+    <div class="product-item">
+      <a href="images/ageli.jpg" class="lightbox">
+        <img src="images/ageli.jpg" alt="Ageli Bread" />
+      </a>
+      <p class="product-name">Ageli Cupcake</p>
+    </div>
+
+    <div class="product-item">
+      <a href="images/pound cake.jpg" class="lightbox">
+        <img src="images/pound cake.jpg" alt="Pound Cake" />
+      </a>
+      <p class="product-name">Pound Cake</p>
+    </div>
+
+    <div class="product-item">
+      <a href="images/brownies.jpg" class="lightbox">
+        <img src="images/brownies.jpg" alt="Brownies" />
+      </a>
+      <p class="product-name">Brownies</p>
+    </div>
+
+    <div class="product-item">
+      <a href="images/croissant.jpg" class="lightbox">
+        <img src="images/croissant.jpg" alt="Butter Croissant" />
+      </a>
+      <p class="product-name">Butter Croissant</p>
+    </div>
+
+    <div class="product-item">
+      <a href="images/simit.jpg" class="lightbox">
+        <img src="images/simit.jpg" alt="Turkish Simit" />
+      </a>
+      <p class="product-name">Turkish Simit</p>
+    </div>
+
+    <div class="product-item">
+      <a href="images/crackers.jpg" class="lightbox">
+        <img src="images/crackers.jpg" alt="Salted Crackers" />
+      </a>
+      <p class="product-name">Salted Crackers</p>
+    </div>
+
+    <div class="product-item">
+      <a href="images/toast.jpg" class="lightbox">
+        <img src="images/toast.jpg" alt="Multigrain Toast" />
+      </a>
+      <p class="product-name">Multigrain Toast</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Our Philosophy Section -->
+<section id="philosophy" class="reveal" style="background-color: var(--primary); color: white; text-align: center; padding: 4em 2em;">
+  <h2 style="font-size: 2.5em; font-family: 'Georgia', serif;">Our Philosophy</h2>
+</section>
+
+<section id="philosophy-points" class="reveal" style="background: url('images/philosophy-bg.jpg') center/cover no-repeat; color: black; padding: 4em 2em;">
+  <div style="display: flex; flex-wrap: wrap; max-width: 1100px; margin: auto; gap: 2em;">
+    <div style="flex: 1 1 200px;">
+      <h3>Natural ingredients</h3>
+      <p>All our ingredients come from local certified suppliers and shops.</p>
+      <h3>Eco-friendly</h3>
+      <p>We consider the impact on the world in everything we do.</p>
+    </div>
+    <div style="flex: 1 1 200px;">
+      <h3>Made fresh</h3>
+      <p>Every day, at the crack of dawn, we start fresh.</p>
+      <h3>Family recipes</h3>
+      <p>Our recipes aren't just recipes — they are heirlooms.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Lactose Tolerance Section -->
+<section id="lactose" class="reveal" style="background-color: #fffdfb; padding: 4em 2em;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 3em; max-width: 1200px; margin: auto;">
+    
+    <!-- English -->
+    <div style="flex: 1; min-width: 300px;">
+      <h2 style="font-family: 'Georgia', serif; font-size: 1.8em;">
+        A low-gluten diet <br>
+        <span style="text-decoration: underline; font-weight: bold;">reduces lactose tolerance</span>
+      </h2>
+      <p>
+        People who suffer from celiac disease or gluten intolerance often exhibit symptoms of lactose intolerance as well.
+        This is because the lining of the gut produces the enzyme lactase which breaks down the lactose found in dairy products.
+        People with a gluten intolerance suffer from damage to the gut which impairs lactase production.
+        However, this effect is temporary, and a gluten-free diet will promote gut health and reduce or even eliminate the symptoms of lactose intolerance.
+      </p>
+    </div>
+
+    <!-- Arabic -->
+    <div style="flex: 1; min-width: 300px; direction: rtl; text-align: right;">
+      <h2 style="font-family: 'Georgia', serif; font-size: 1.8em;">
+        نظام غذائي منخفض الغلوتين <br>
+        <span style="text-decoration: underline; font-weight: bold;">يقلل من تحمل اللاكتوز</span>
+      </h2>
+      <p>
+        غالباً ما يظهر الأشخاص الذين يعانون من مرض الاضطرابات الهضمية أو عدم تحمل الغلوتين، أعراض عدم تحمل اللاكتوز أيضًا.
+        وذلك لأن بطانة القناة الهضمية تنتج إنزيم اللاكتاز الذي يكسر اللاكتوز الموجود في منتجات الألبان.
+        يعاني الأشخاص الذين يعانون من عدم تحمل الغلوتين من تلف الأمعاء، مما يضعف إنتاج اللاكتاز.
+        ومع ذلك، فإن هذا التأثير مؤقت، والنظام الغذائي الخالي من الغلوتين سيعزز صحة الأمعاء ويقلل أو حتى يقضي على أعراض عدم تحمل اللاكتوز.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Join Us Section -->
+<section id="join-us" class="reveal" style="background: url('images/croissants.jpg') center/cover no-repeat; padding: 4em 2em; display: flex; justify-content: center;">
+  <div style="background: white; padding: 2em; max-width: 500px; text-align: center; border-radius: 10px;">
+    <h2><span style="font-size: 2em;">&#x1F9D1;&#x200D;&#x1F373;</span> Join Us</h2>
+    <p>Are you looking for collaboration?</p>
+    <p>Send us your inquiry to <a href="mailto:info@grottabakery.com">info@grottabakery.com</a></p>
+    <button style="margin-top: 1em; background: black; color: white; padding: 0.8em 1.5em; border: none; border-radius: 5px; cursor: pointer;">Email</button>
+  </div>
+</section>
+
+<!-- Get Started Section -->
+<section id="get-started" class="reveal" style="display: flex; background: url('images/bakery bg.jpg') center/cover no-repeat; padding: 4em 2em;">
+  <div style="flex: 1; color: white; padding: 2em;">
+    <h2 style="font-size: 2.5em; font-family: 'Georgia', serif;">Interested to add<br>Gluten-free products<br>on your menu</h2>
+    <p style="margin-top: 1.5em; font-size: 1.1em;">We are happy to discuss with you best fitting solution specially for your customers.</p>
+  </div>
+  <div style="flex: 1; background: white; padding: 3em; border-radius: 10px; max-width: 500px;">
+    <h2 style="font-family: 'Georgia', serif;">Get Started</h2>
+    <p>Drop us a line and we’ll get back to you!</p>
+    <form>
+      <input type="text" placeholder="Name" required style="width: 100%; padding: 10px; margin: 10px 0;" />
+      <input type="email" placeholder="Email" required style="width: 100%; padding: 10px; margin: 10px 0;" />
+      <input type="tel" placeholder="Phone" style="width: 100%; padding: 10px; margin: 10px 0;" />
+      <label><input type="checkbox" /> Sign up for our newsletter</label>
+      <button type="submit" style="margin-top: 1em; background: black; color: white; padding: 0.8em 1.5em; border: none; border-radius: 5px; cursor: pointer;">Submit</button>
+    </form>
+  </div>
+</section>
+
+<!-- Benefits Section -->
+<section id="benefits" class="reveal" style="text-align: center; padding: 4em 2em;">
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 4em;">
+    <div>
+      <img src="images/Check.png" alt="Check" style="width: 50px;" />
+      <p style="margin-top: 0.8em; font-size: 1.2em;">Save Time</p>
+    </div>
+    <div>
+      <img src="images/Check.png" alt="Check" style="width: 50px;" />
+      <p style="margin-top: 0.8em; font-size: 1.2em;">Earn More</p>
+    </div>
+    <div>
+      <img src="images/Check.png" alt="Check" style="width: 50px;" />
+      <p style="margin-top: 0.8em; font-size: 1.2em;">Grow Faster</p>
+    </div>
+    <div>
+      <img src="images/Check.png" alt="Check" style="width: 50px;" />
+      <p style="margin-top: 0.8em; font-size: 1.2em;">Friendly Support</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="reveal">
+  <h2>Contact Us</h2>
+  <div class="contact-boxes">
+    <div class="contact-form box">
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <div class="contact-info box">
+      <p><strong>Phone:</strong><br> +973 3320 0780</p>
+      <p><strong>Address:</strong><br> Block 579, Road 7914, Hamala Hills, Janabiyah, Bahrain</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/grottobakery.bh/" target="_blank">
+          <img src="images/insta.jpg" alt="Instagram" class="icon" /> Instagram
+        </a>
+        <a href="https://www.facebook.com/grottobakery.bh/" target="_blank">
+          <img src="images/facebook.jpg" alt="Facebook" class="icon" /> Facebook
+        </a>
+      </div>
+    </div>
+  </div>
+
+   <!-- Map -->
+   <div class="map-box box">
+    <iframe
+      src="https://www.google.com/maps?q=Grotto+Bakery+Bahrain&output=embed"
+      width="100%" height="350" style="border:0;" allowfullscreen loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+<section id="info" class="reveal">
+  <div class="info-container">
+    <div class="info-block">
+      <img src="images/truck.png" alt="Delivery Truck Icon" class="info-icon" />
+      <h2>Delivery Hours</h2>
+      <p><strong>Sun - Thu</strong> &nbsp;&nbsp; 10:00 am - 10:00 pm</p>
+      <p><strong>Fri - Sat</strong> &nbsp;&nbsp; 4:00 pm - 10:00 pm</p>
+    </div>
+
+    <div class="info-block">
+      <img src="images/store.png" alt="Store Icon" class="info-icon" />
+      <h2>Other Locations</h2>
+      <p>Selling Point Locations<br />Shall Be Announced Shortly</p>
+      <p class="arabic-text">نقاط البيع سوف يتم الاعلان عنها قريباً</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>The Gluten Free Bakery - Bahrain | أول مخبز خالي من الجلوتين</p>
+  <p>Redesigned in 2025</p>
+  <p>&copy; 2025 Grotta Bakery</p>
+  <button id="backToTop" title="Back to Top">↑</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
